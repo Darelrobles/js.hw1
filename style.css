@@ -1,0 +1,64 @@
+div{
+  width: 70px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: #112453
+}
+
+.wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.all-wrapper{
+  width: 25%;
+  border-radius: 25px;
+  background-color: rgb(172, 209, 209);
+  padding: 15px 15px 15px 25px;
+}
+
+#id-h1{
+  color: brown;
+}
+
+#id-h1:hover{
+  color: #324ca3;
+}
+
+input{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  border-color: blueviolet;
+  color: #0b4c44;
+  border-radius: 7px;
+  margin-top: 7px;
+}
+
+input:focus{
+  box-shadow: 3px 7px #0b4c44;
+  opacity: 0.8;
+}
+
+.but1{
+  width: 150px;
+  background-color: #0b4c44;
+  color: white;
+  font-size: 16px;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.but1:hover{
+  color: black;
+  background-color: #324ca3;
+}
+
+.but1:active{
+  box-shadow: 5px 10px #324ca3;
+}
