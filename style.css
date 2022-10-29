@@ -8,16 +8,18 @@ div{
 }
 
 .wrapper{
+  margin-top: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .all-wrapper{
-  width: 25%;
+  width: 350px;
+  border: px solid aqua;
   border-radius: 25px;
   background-color: rgb(172, 209, 209);
-  padding: 15px 15px 15px 25px;
+  padding: 15px 15px 15px 75px;
 }
 
 #id-h1{
@@ -29,6 +31,7 @@ div{
 }
 
 input{
+  width: 250px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   border-color: blueviolet;

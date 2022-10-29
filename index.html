@@ -4,39 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Реєестрація нового учасника</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
     <div class="wrapper">
       <div class="all-wrapper">
         <h1 id="id-h1">Реєстрація клієнта</h1>
         <div>
           <label
             >Ім'я
-            <input id="Name" placeholder="Введіть своє ім'я">
+            <input id="fullName" placeholder="Введіть своє ім'я" />
           </label>
         </div>
         <div>
           <label
             >Вік
-            <input id="Age" placeholder="Введіть свій вік">
+            <input id="age" placeholder="Введіть свій вік" />
           </label>
         </div>
         <div>
           <label
             >Вага
-            <input id="Weight" placeholder="Введіть свою вагу">
+            <input id="weight" placeholder="Введіть свою вагу" />
           </label>
         </div>
         <div>
           <label
             >Зріст
-            <input id="Height" placeholder="Введіть свій зріст">
+            <input id="height" placeholder="Введіть свій зріст" />
           </label>
         </div>
-        <button class="but1">Зареєструвати</button>
+        <button id="showResult" onclick="showResult()" class="but1">
+          Зареєструвати
+        </button>
       </div>
     </div>
 
