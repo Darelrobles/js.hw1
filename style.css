@@ -22,6 +22,7 @@ div{
 }
 
 #id-h1{
+  cursor: default;
   color: brown;
 }
 
@@ -37,6 +38,7 @@ input{
   color: #0b4c44;
   border-radius: 7px;
   margin-top: 7px;
+  cursor: pointer;
 }
 
 input:focus{
