@@ -5,7 +5,6 @@
 //  alert (Ups);
 //}
 
-
 if (age <18) {
   console.log('you are too young to our gym');
 }
@@ -35,21 +34,21 @@ else (age >= 18 && age <=60 && weight >=60 && weight <=120 && height >=160 && he
   alert('Welcome to our gym-family');
 }
 
-//document.getElementById('showResult').onclick = function() {
-//  let name = document.getElementById('fullName').value;
-//  let age = document.getElementById('age').value;
-//  let weight = document.getElementById('weight').value;
-//  let height = document.getElementById('height').value;
+document.getElementById('showResult').onclick = function() {
+  let name = document.getElementById('fullName').value;
+  let age = document.getElementById('age').value;
+  let weight = document.getElementById('weight').value;
+  let height = document.getElementById('height').value;
 
-//  if (age >= 18 && age <=60 && weight >=60 && weight <=120 && height >=160 && height <=195) {
-//    alert('Welcome to our gym-family');
-//  }
+  if (age >= 18 && age <=60 && weight >=60 && weight <=120 && height >=160 && height <=195) {
+    alert('Welcome to our gym-family');
+  }
 
-//  else (age <18 && age >60 && weight <60 && weight >120 && height <160 && height >195) 
-//  {
-//    alert('Go away and find some other gym');
-//  }
-//}
+  else (age <18 && age >60 && weight <60 && weight >120 && height <160 && height >195) 
+  {
+    alert('Go away and find some other gym');
+  }
+}
 
 
 
