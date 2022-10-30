@@ -11,24 +11,29 @@ const age = 90;
 const weight = 94;
 const height = 195;
 
-if (age <=18);
+if (age <=18){
   console.log('you are too young to our gym');
+}
 
-if (age >60);
+if (age >60){
   console.log('you are too old for us');
+}
 
-if (weight <60);
+if (weight <60){
   console.log('you are too thin for us');
+}
 
-if (weight >120);
+if (weight >120){
   console.log('your ass is too fat');
+}
 
-if (height <160);
+if (height <160){
   console.log('you are too short');
+}
 
-if (height >195);
+if (height >195){
   console.log('you are too tall');
-
+}
 
 //else (age >= 18 && age <=60 && weight >=60 && weight <=120 && height >=160 && height <=195) 
   {
