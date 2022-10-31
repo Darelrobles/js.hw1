@@ -12,12 +12,12 @@ const age = 30;
 const weight = 94;
 const height = 195;
 
-if (age <18){
-  console.log('you are too young to our gym');
-}
-
 if (age >=18){
   console.log('you are welcome');
+}
+
+else if (age <18){
+  console.log('you are too young to our gym');
 }
 
 if (age >60){
@@ -61,11 +61,13 @@ document.getElementById('showResult').onclick = function() {
 
   if (age >= 18 && age <=60 && weight >=60 && weight <=120 && height >=160 && height <=195) {
     alert('Welcome to our gym-family, ' + name);
-  }  
-  else if(age <18 && age >60 && weight <60 && weight >120 && height <160 && height >195); {
+  }
+  else if(age <18 && age >60 && weight <60 && weight >120 && height <160 && height >195) {
     alert('Go away and find some other gym, ' + name);
   }
 }
+
+
 
 
 
