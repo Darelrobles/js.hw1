@@ -7,7 +7,8 @@
 
 //console.log('Hello World')
 
-const age = 60;
+const name = 'Roman';
+const age = 30;
 const weight = 94;
 const height = 195;
 
