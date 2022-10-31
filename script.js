@@ -61,7 +61,8 @@ document.getElementById('showResult').onclick = function() {
 
   if (age >= 18 && age <=60 && weight >=60 && weight <=120 && height >=160 && height <=195) {
     alert('Welcome to our gym-family, ' + name);
-  }  else age <18 && age >60 && weight <60 && weight >120 && height <160 && height >195; {
+  }  
+  else if(age <18 && age >60 && weight <60 && weight >120 && height <160 && height >195); {
     alert('Go away and find some other gym, ' + name);
   }
 }
